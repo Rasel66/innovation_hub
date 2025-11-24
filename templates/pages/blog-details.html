@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Blogs Details{% endblock  %}
+
+{% block content %}
+    <main class="main-contents">
+
+        <div class="margintop"></div>
+
+
+        <section class="course-content" style="padding-top: 1rem;" data-aos="fade-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <div class="background">
+                                    <img src="{% static 'assets/img/learn-programming.webp' %}" alt="Blog title">
+                                </div>
+                            </div>
+                            <div class="blog-info clearfix">
+                                <div class="post-left">
+                                    <ul>
+                                        <li class="d-flex gap-2 align-items-center">
+                                            <img src="{% static 'assets/img/icon-22.svg' %}" alt="icon"> 31/01/2023
+                                        </li>
+                                        <li class="d-flex gap-2 align-items-center">
+                                            <img src="{% static 'assets/img/icon-23.svg' %}" alt="icon"> Computer Programming
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h3 class="blog-title">প্রোগ্রামিং কেনো শিখবেন ?</h3>
+                            <div class="blog-content">
+                                <p>কম্পিউটার একটি অসম্ভব ক্ষমতাবান কিন্তু নির্বোধ একটি যন্ত্র। প্রোগ্রামিং শিখে আমরা একেকজন হয়ে উঠতে পারি সেই মানুষটি যে এই যন্ত্রকে ইচ্ছামত কথা শোনাতে পারি। কম্পিউটার প্রোগ্রামিং এর মাধ্যমে আপনি যেভাবে কম্পিউটারকে নির্দেশ
+                                    দিবেন, কম্পিউটার তাই করবে। কম্পিউটার প্রোগ্রামিং এর কিছু ফলাফল এর ভিত্তিতে কম্পিউটার প্রোগ্রামিং এর প্রয়োজনীয়তা নিম্নরূপঃ</p>
+                                <p>&nbsp;</p>
+                                <p>১। আগে এক জায়গা থেকে আরেক জায়গায় চিঠি পাঠাতে অনেক দিন সময় লেগে যেত , টাকাও অনেক খরচ হত, আর এখন এক মিনিটের ও কম সময়ে Email এর মাধ্যমে বিনা খরচে যোগাযোগ সম্ভব হচ্ছে।</p>
+                                <p>২। লম্বা লাইনে দাঁড়িয়ে রেলওয়ে টিকেট - বাস টিকেট সংগ্রহ করা অনেক বেশি কষ্টের, বর্তমানে অনলাইন টিকেট বুকিং সিস্টেম এর মাধ্যমে মিনিটেরও কম সময়ে টিকেট কাটা সম্ভব হচ্ছে।</p>
+                                <p>৩। ব্যাংকে টাকা উত্তোলন অথবা টাকা পাঠানোর জন্য লম্বা লাইনে দাঁড়িয়ে থাকার মত কঠিন অভিজ্ঞতা আগের জেনেরেশন ভালই বলতে পারবেন, কিন্ত বর্তমানে ATM Banking System, Online Banking System এর ফলাফল হিসেবে আমরা নিমিষেই টাকা Transaction
+                                    করতে পারছি।</p>
+                                <p>&nbsp;</p>
+                                <p>কম্পিউটার প্রোগ্রামিং এর প্রয়োগ এবং প্রয়োজনীয়তা উপরোক্ত কয়েকটি উদাহারণ এর মাধ্যমে আপনারা ভালোই বুঝতে পেরেছেন, আরো অনেক উদাহারণ রয়েছে যা সময়ের সাথে আমরা নিজেরাই অনুধাবন করতে পারব।</p>
+                                <p>&nbsp;</p>
+                                <p>মোহাম্মদ সাঈদী</p>
+                                <p>সফটওয়্যার ডেভেলপার,পন্ডিত</p>
+                            </div>
+                            <div class="card comment-sec m-0">
+                                <div class="card-body">
+                                    <div class="d-flex gap-2 align-items-center blog-like-container">
+                                        <div class="like-container"><button class="btn-like-normal false "> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 8h-5.612l1.123-3.367c.202-.608.1-1.282-.275-1.802S14.253 2 13.612 2H12c-.297 0-.578.132-.769.36L6.531 8H4c-1.103 0-2 .897-2 2v9c0 1.103.897 2 2 2h13.307a2.01 2.01 0 0 0 1.873-1.298l2.757-7.351A1 1 0 0 0 22 12v-2c0-1.103-.897-2-2-2zM4 10h2v9H4v-9zm16 1.819L17.307 19H8V9.362L12.468 4h1.146l-1.562 4.683A.998.998 0 0 0 13 10h7v1.819z"></path></svg> <span class="btn-like-text"> Like</span></button>
+                                            <span class="btn-like-count">(1)</span>
+                                        </div>
+                                        <div class="like-container"><button class="btn-like-normal false "> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 2H4c-1.103 0-2 .897-2 2v18l5.333-4H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14H6.667L4 18V4h16v12z"></path></svg> <span class="btn-like-text"> Comments</span></button>
+                                            <span class="btn-like-count">(0)</span>
+                                        </div>
+                                        <div class="like-container"><button class="btn-like-normal"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg><span class="btn-like-text"> Share</span></button>
+                                            <span class="btn-like-count"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+{% endblock %}
