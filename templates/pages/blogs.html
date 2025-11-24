@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Blogs{% endblock  %}
+
+{% block content %}
+    <main class="main-contents">
+
+        <div class="margintop"></div>
+
+
+        <div class="page-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-12" data-aos="fade-up">
+                        <h1>ব্লগ সমূহ</h1>
+                        <div class="mt-2" style="text-align: justify;">
+                            <p>টেক দুনিয়ার বিভিন্ন আকর্ষনীয় এবং গুরুত্বপূর্ণ বিষয় নিয়ে আমাদের প্রযুক্তি বিশেষজ্ঞ এবং মেন্টরদের জ্ঞানগর্ভ আলোচনা ভিত্তিক প্রবন্ধ গুলো শেয়ার করছি এখানে। আশা করছি , বিষয়ভিত্তিক এবং কর্মক্ষেত্রে প্রায়োগিক জ্ঞান সমৃদ্ধ এই তথ্যবহুল
+                                প্রবন্ধগুলো আপনাদের জ্ঞান কে আরো সমৃদ্ধ করবে এবং বিভিন্ন বিষয়ে আপনার কৌতুহল মেটাতে সহায়ক ভূমিকা পালন করবে ।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="course-content">
+            <div class="infinite-scroll-component__outerdiv">
+                <div class="infinite-scroll-component " data-aos="fade-up">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="blog grid-blog">
+                                    <div class="blog-image">
+                                        <a href="{% url 'blogs_details_page' %}">
+                                            <img src="{% static 'assets/img/big-data-and-data-science.webp' %}" alt="blog-image">
+                                        </a>
+                                    </div>
+                                    <div class="blog-grid-box masonry-box">
+                                        <div class="blog-info clearfix">
+                                            <div class="post-left">
+                                                <ul>
+                                                    <li>
+                                                        <img alt="Calender Icon" src="{% static 'assets/img/icon-22.svg' %}"></span><span>31/01/2023</span></li>
+                                                    <li>
+                                                        <img alt="Tag Icon" src="{% static 'assets/img/icon-23.svg' %}"></span><span title="">Data Science...</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3 class="blog-title"><a href="{% url 'blogs_details_page' %}">বিগ ডাটা এন্ড ডাটা সায়েন্স</a></h3>
+                                        <div class="blog-content blog-read">
+                                            <p>আমরা যারা নেটফ্লিক্স বা ইউটিউব চালাই, আমরা সেখানে আমাদের পছন্দ করা মুভি, সিরিজ বা ভিডিও গুলো দেখে থাকি । পরবর্তীতে দে...</p>
+                                            <div class="d-flex justify-content-center"><a class="btn btn-primary" href="{% url 'blogs_details_page' %}">বিস্তারিত</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="blog grid-blog">
+                                    <div class="blog-image">
+                                        <a href="{% url 'blogs_details_page' %}">
+                                            <img src="{% static 'assets/img/big-data-and-data-science.webp' %}" alt="blog-image">
+                                        </a>
+                                    </div>
+                                    <div class="blog-grid-box masonry-box">
+                                        <div class="blog-info clearfix">
+                                            <div class="post-left">
+                                                <ul>
+                                                    <li>
+                                                        <img alt="Calender Icon" src="{% static 'assets/img/icon-22.svg' %}"></span><span>31/01/2023</span></li>
+                                                    <li>
+                                                        <img alt="Tag Icon" src="{% static 'assets/img/icon-23.svg' %}"></span><span title="">Data Science...</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3 class="blog-title"><a href="{% url 'blogs_details_page' %}">বিগ ডাটা এন্ড ডাটা সায়েন্স</a></h3>
+                                        <div class="blog-content blog-read">
+                                            <p>আমরা যারা নেটফ্লিক্স বা ইউটিউব চালাই, আমরা সেখানে আমাদের পছন্দ করা মুভি, সিরিজ বা ভিডিও গুলো দেখে থাকি । পরবর্তীতে দে...</p>
+                                            <div class="d-flex justify-content-center"><a class="btn btn-primary" href="{% url 'blogs_details_page' %}">বিস্তারিত</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="blog grid-blog">
+                                    <div class="blog-image">
+                                        <a href="{% url 'blogs_details_page' %}">
+                                            <img src="{% static 'assets/img/big-data-and-data-science.webp' %}" alt="blog-image">
+                                        </a>
+                                    </div>
+                                    <div class="blog-grid-box masonry-box">
+                                        <div class="blog-info clearfix">
+                                            <div class="post-left">
+                                                <ul>
+                                                    <li>
+                                                        <img alt="Calender Icon" src="{% static 'assets/img/icon-22.svg' %}"></span><span>31/01/2023</span></li>
+                                                    <li>
+                                                        <img alt="Tag Icon" src="{% static 'assets/img/icon-23.svg' %}"></span><span title="">Data Science...</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3 class="blog-title"><a href="{% url 'blogs_details_page' %}">বিগ ডাটা এন্ড ডাটা সায়েন্স</a></h3>
+                                        <div class="blog-content blog-read">
+                                            <p>আমরা যারা নেটফ্লিক্স বা ইউটিউব চালাই, আমরা সেখানে আমাদের পছন্দ করা মুভি, সিরিজ বা ভিডিও গুলো দেখে থাকি । পরবর্তীতে দে...</p>
+                                            <div class="d-flex justify-content-center"><a class="btn btn-primary" href="{% url 'blogs_details_page' %}">বিস্তারিত</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="blog grid-blog">
+                                    <div class="blog-image">
+                                        <a href="{% url 'blogs_details_page' %}">
+                                            <img src="{% static 'assets/img/big-data-and-data-science.webp' %}" alt="blog-image">
+                                        </a>
+                                    </div>
+                                    <div class="blog-grid-box masonry-box">
+                                        <div class="blog-info clearfix">
+                                            <div class="post-left">
+                                                <ul>
+                                                    <li>
+                                                        <img alt="Calender Icon" src="{% static 'assets/img/icon-22.svg' %}"></span><span>31/01/2023</span></li>
+                                                    <li>
+                                                        <img alt="Tag Icon" src="{% static 'assets/img/icon-23.svg' %}"></span><span title="">Data Science...</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3 class="blog-title"><a href="{% url 'blogs_details_page' %}">বিগ ডাটা এন্ড ডাটা সায়েন্স</a></h3>
+                                        <div class="blog-content blog-read">
+                                            <p>আমরা যারা নেটফ্লিক্স বা ইউটিউব চালাই, আমরা সেখানে আমাদের পছন্দ করা মুভি, সিরিজ বা ভিডিও গুলো দেখে থাকি । পরবর্তীতে দে...</p>
+                                            <div class="d-flex justify-content-center"><a class="btn btn-primary" href="{% url 'blogs_details_page' %}">বিস্তারিত</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+{% endblock %}
