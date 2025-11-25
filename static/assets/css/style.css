@@ -418,6 +418,9 @@ loader
 .margintop {
     margin-top: 81px;
 }
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 li {
+    padding: 0px 8px;
+}
 
 
 /* ***********************
@@ -426,7 +429,7 @@ Home slider
 
 .home-slide {
     position: relative;
-    background-image: url('../img/banner.b61353da.png');
+    background-image: url('../img/bg3.png');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -481,7 +484,7 @@ Home slider
     background: linear-gradient(90deg, #009dff, #72d3fd);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: #296D7E;
 }
 
 .trust-user p {
@@ -687,7 +690,7 @@ Home slider
     font-size: 36px;
     margin-bottom: 0;
     font-weight: 700;
-    color: #0b0b0b;
+    color: #296D7E;
     letter-spacing: .9px
 }
 
@@ -761,11 +764,14 @@ Home slider
 
 .new-course {
     padding: 80px 0 56px;
-    background-image: url('../img/banner.b61353da.png');
+    background-image: url('../img/bg3.png');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
     position: relative
+}
+.training-course{
+    padding: 80px 0 56px;
 }
 
 .new-course:before {
@@ -1253,7 +1259,7 @@ Home slider
     padding: 30px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    color: #000;
+    color: #296D7E;
     position: relative
 }
 
@@ -1507,7 +1513,7 @@ Home slider
 
 .latest-blog {
     padding: 80px 0 63px;
-    background-image: url(../img/bg-banner-02.png);
+    background-image: url(../img/bg3.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover
@@ -2243,7 +2249,7 @@ Home slider
 .page-banner {
     padding: 88px 0;
     text-align: center;
-    background: #1565c0
+    background: #296d7e
 }
 
 .page-banner h1 {
@@ -2263,7 +2269,7 @@ Home slider
 
 .blue-side {
     background: transparent;
-    border: 2px solid rgba(91, 178, 248, .8);
+    border: 2px solid #296d7e;
     border-left-width: 10px
 }
 
@@ -2338,7 +2344,7 @@ Home slider
 
 .training-category {
     position: relative;
-    background-image: url(../img/banner.b61353da.png);
+    background-image: url(../img/bg3.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover
@@ -2351,7 +2357,7 @@ Home slider
 
 .subtitle {
     font-size: 36px;
-    color: #22100d;
+    color: #296D7E;
     font-weight: 500;
 }
 
@@ -3107,4 +3113,7 @@ Home slider
     box-sizing: border-box;
     width: 100%;
     gap: 1rem;
+}
+.footer-address.justify-content-center.justify-content-md-start i {
+    padding-top: 4px;
 }
