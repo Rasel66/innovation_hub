@@ -129,6 +129,14 @@ section {
 body {
     line-height: 1.5;
 }
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 ol,
 ul {
@@ -160,7 +168,7 @@ table {
 
 body {
     margin: 0;
-    font-family: "Noto Sans Bengali", sans-serif;
+    font-family: sans-serif;
     /* font-family: "Noto Sans", sans-serif; */
     line-height: 1.5;
     -webkit-box-sizing: border-box;
@@ -872,6 +880,7 @@ Home slider
     font-weight: 500
 }
 
+
 .all-category .btn-primary:hover {
     color: #fff;
     background-color: #4587d3
@@ -886,7 +895,7 @@ Home slider
 .price.combo {
     background: #fff;
     position: absolute;
-    bottom: 20px;
+    bottom: 6px;
     border-radius: 10px
 }
 
